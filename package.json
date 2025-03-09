@@ -1,0 +1,34 @@
+{
+  "name": "rtsp-web-viewer",
+  "version": "1.0.0",
+  "description": "A Node.js library for converting RTSP streams to MJPEG for web browser viewing with minimal latency",
+  "main": "rtsp-stream.js",
+  "types": "rtsp-stream.d.ts",
+  "scripts": {
+    "start": "node rtsp-stream.js",
+    "dev": "nodemon rtsp-stream.js"
+  },
+  "keywords": [
+    "rtsp",
+    "mjpeg",
+    "streaming",
+    "video",
+    "websocket",
+    "ffmpeg",
+    "browser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.1",
+    "rtsp-ffmpeg": "^0.0.16",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
