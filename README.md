@@ -118,7 +118,7 @@ const streamSettings = {
 ### Server-Side (RTSPStreamServer)
 
 #### Configuration Options
-\`\`\`typescript
+```typescript
 interface RTSPConfig {
     rtspUrl: string;          // RTSP stream URL
     transport: 'tcp' | 'udp'; // Transport protocol
@@ -128,7 +128,7 @@ interface RTSPConfig {
     port: number;           // Server port
     ffmpegOptions: string[]; // Additional FFmpeg options
 }
-\`\`\`
+```
 
 #### Stream Statistics
 ```typescript
