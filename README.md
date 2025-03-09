@@ -170,7 +170,7 @@ The player provides customizable CSS classes:
 ```
 
 #### Socket Events
-\`\`\`javascript
+```javascript
 // Emitted Events
 socket.emit('update-config', newConfig);    // Update stream configuration
 socket.emit('stream-reconnect');           // Request stream reconnection
@@ -180,7 +180,7 @@ socket.on('stream', (data) => {});        // Receive frame data
 socket.on('stream-error', (data) => {});  // Stream error occurred
 socket.on('stream-status', (data) => {}); // Stream status update
 socket.on('config', (config) => {});      // Configuration updated
-\`\`\`
+```
 
 ## Advanced Features
 
